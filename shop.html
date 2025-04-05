@@ -1,0 +1,1207 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<section>
+    <nav>
+        <a href="#" class="logo"><img src="https://static.vecteezy.com/system/resources/previews/024/043/963/original/book-icon-clipart-transparent-background-free-png.png"></a>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <i class="fa fa-bars"></i>
+        </div>
+        <ul class="menu">
+            <li><a href="c:\Users\LOMADA SAHITHI\OneDrive\Desktop\UID\bookstore.html">Home</a></li>
+            <li><a href="C:\Users\LOMADA SAHITHI\OneDrive\Desktop\UID\about.html">About</a></li>
+            <li><a href=#Shop>Shop</a></li>
+            <li><a href=#Contact>Contact</a></li>
+            <div class="iconCart" onclick="toggleCart()">
+                <li><img style="width:35px ;height:35px; margin-top:0.1px;" src="C:\Users\LOMADA SAHITHI\OneDrive\Desktop\UID\icon.png"></li>
+                <div class="totalQuantity">0</div>
+            </div>
+           
+       </ul>
+       <a href="#" class="sitename">Bookaholic</a>
+       
+    </nav>
+</section>
+<section class="categories" id="Shop">
+    <h1 class="Heading">Shop by <span>Categories</span></h1>
+    <div class="category-slider">
+    <div class="genre">
+        <div class="box">
+            <a href="#fantasy">
+            <img src="https://m.media-amazon.com/images/I/81q77Q39nEL.jpg">
+            </a>
+            <h3>Fantasy</h3>
+        </div>
+        <div class="box">
+            <a href="#thriller">
+            <img src="https://m.media-amazon.com/images/I/91SDZ2eUj+L.jpg" alt="">
+            </a>
+            <h3>Thriller</h3>
+        </div>
+        <div class="box">
+            <a href="#fiction">
+            <img src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/8/25/1440502605800/d17df8ac-f06b-415b-8d51-79f6647ff413-bestSizeAvailable.jpeg?width=140&quality=45&auto=format&fit=max&dpr=2&s=9413191d330f88405121d7492d92cb7d" alt="">
+            </a>
+            <h3>Fiction</h3>
+        </div>
+        <div class="box">
+            <a href="#mystery">
+            <img src="https://images.thalia.media/07/-/c2a5ed0d6fd84314b3def6a9798fcdd4/one-of-us-is-lying-collector-s-edition-gebundene-ausgabe-karen-m-mcmanus-englisch.jpeg" alt="">
+            </a>
+            <h3>Mystery</h3>
+        </div>
+        <div class="box">
+            <a href="#adventure">
+            <img src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781684129058/charles-dickens-four-novels-9781684129058_hr.jpg" alt="">
+            </a>
+            <h3>Adventure</h3>
+        </div>
+        <div class="box">
+            <a href="#horror">
+            <img src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781684129058/charles-dickens-four-novels-9781684129058_hr.jpg" alt="">
+            </a>
+            <h3>Horror</h3>
+        </div>
+</section>
+<section class="product" id="fantasy">
+    <h1 class="heading">Fantasy</h1>
+    <div class="product-slider">
+    <div class="wrapper">
+        <div class="box">
+            <img src="https://i.pinimg.com/736x/d9/5e/b9/d95eb949882bad2e03e4c5d8d2f84daf.jpg" alt="">
+            <h3>The Cruel Prince</h3>
+            <div class="price">Rs.320</div>
+            <button onclick="addToCart('The Cruel Prince', 320.00, 'https://i.pinimg.com/736x/d9/5e/b9/d95eb949882bad2e03e4c5d8d2f84daf.jpg')">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            
+        </div>
+        
+        <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.vIqjX_cFZfZ0ojJCa1akwAHaLb?rs=1&pid=ImgDetMain" alt="">
+            <h3>The Wicked king</h3>
+            <div class="price">Rs.320</div>
+            <button onclick="addToCart('The Wicked King', 320.00, 'https://th.bing.com/th/id/OIP.vIqjX_cFZfZ0ojJCa1akwAHaLb?rs=1&pid=ImgDetMain')">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.HpDQSfGDTsekT3eU7eTChwHaLZ?rs=1&pid=ImgDetMain" alt="">
+            <h3>The Queen of Nothing</h3>
+            <div class="price">Rs.320</div>
+            <button onclick="addToCart('The Queen of Nothing', 320.00,'https://th.bing.com/th/id/OIP.HpDQSfGDTsekT3eU7eTChwHaLZ?rs=1&pid=ImgDetMain' )">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.pOFNbvkDHramwftVvBm1gAHaLh?w=803&h=1250&rs=1&pid=ImgDetMain" alt="">
+            <br><h3>The Stolen Heir</h3>
+            <div class="price">Rs.900</div>
+            <button onclick="addToCart('The Stolen Heir', 900.00, 'https://th.bing.com/th/id/OIP.pOFNbvkDHramwftVvBm1gAHaLh?w=803&h=1250&rs=1&pid=ImgDetMain')">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.1KLldtgcQda-h5oJscJ_jwHaLG?rs=1&pid=ImgDetMain" alt="">
+            <h3>Shadow and Bone</h3>
+            <div class="price">Rs.900</div>
+            <button onclick="addToCart('Shadow and Bone', 900.00, 'https://th.bing.com/th/id/OIP.1KLldtgcQda-h5oJscJ_jwHaLG?rs=1&pid=ImgDetMain')">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.ejkJyerXb4uYfB7jz3lIFQHaLO?rs=1&pid=ImgDetMain" alt="">
+            <h3>Harry Potter and the Chamber of Secrets </h3>
+            <div class="price">Rs.375</div>
+            <button onclick="addToCart('Harry Potter and the Chamber of Secrets', 375.00, 'https://th.bing.com/th/id/OIP.ejkJyerXb4uYfB7jz3lIFQHaLO?rs=1&pid=ImgDetMain')">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            
+        </div>
+        
+        <div class="box">
+            <img src="https://wordery.com/jackets/99f3a5e0/l/harry-potter-and-the-prisoner-of-azkaban-book-3-j-k-rowling-9780545582933.jpg" alt="">
+            <h3>Harry potter and the Prisoner of Azkaban</h3>
+            <div class="price">Rs.375</div>
+            <button onclick="addToCart('Harry potter and the Prisoner of Azkaban', 375.00, 'https://wordery.com/jackets/99f3a5e0/l/harry-potter-and-the-prisoner-of-azkaban-book-3-j-k-rowling-9780545582933.jpg')">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://products-images.di-static.com/image/j-k-rowling-harry-potter-tome-4-harry-potter-and-the-goblet-of-fire/9781408855683-475x500-1.jpg" alt="">
+            <h3>Harry Potter and the Goblet of Fire</h3>
+            <div class="price">Rs.530</div>
+            <button onclick="addToCart('Harry Potter and the Goblet of Fire', 530.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.shopify.com/s/files/1/0552/2233/7720/products/9781408855713_1_ca615d73-6b2c-4c6c-9722-f6b5d21e8755_800x.jpg?v=1618538737" alt="">
+            <h3>Harry Potter and the Deathly Hallows</h3>
+            <div class="price">Rs.530</div>
+            <button onclick="addToCart('Harry Potter and the Deathly Hallows', 530.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_568,c_scale/jackets/9781408855652.jpg" alt="">
+            <h3>Harry Potter and the Philospher's Stone</h3>
+            <div class="price">Rs.375</div>
+            <button onclick="addToCart('Harry Potter and the Philospher Stone', 375.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        
+    </div> 
+    </div>       
+</section>
+<section class="product" id="thriller">
+    <h1 class="heading">Thriller</h1>
+    <div class="product-slider">
+    <div class="wrapper">
+        <div class="box">
+            <img src="https://i.pinimg.com/736x/d9/5e/b9/d95eb949882bad2e03e4c5d8d2f84daf.jpg" alt="">
+            <h3>The Cruel Prince</h3>
+            <div class="price">Rs.320</div>
+            <button onclick="addToCart('The Cruel Prince', 320.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            
+        </div>
+        
+        <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.vIqjX_cFZfZ0ojJCa1akwAHaLb?rs=1&pid=ImgDetMain" alt="">
+            <h3>The Wicked king</h3>
+            <div class="price">Rs.320</div>
+            <button onclick="addToCart('The Wicked King', 320.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.HpDQSfGDTsekT3eU7eTChwHaLZ?rs=1&pid=ImgDetMain" alt="">
+            <h3>The Queen of Nothing</h3>
+            <div class="price">Rs.320</div>
+            <button onclick="addToCart('The Queen of Nothing', 320.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.pOFNbvkDHramwftVvBm1gAHaLh?w=803&h=1250&rs=1&pid=ImgDetMain" alt="">
+            <br><h3>The Stolen Heir</h3>
+            <div class="price">Rs.900</div>
+            <button onclick="addToCart('The Stolen Heir', 900.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.1KLldtgcQda-h5oJscJ_jwHaLG?rs=1&pid=ImgDetMain" alt="">
+            <h3>Shadow and Bone</h3>
+            <div class="price">Rs.900</div>
+            <button onclick="addToCart('Shadow and Bone', 900.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.ejkJyerXb4uYfB7jz3lIFQHaLO?rs=1&pid=ImgDetMain" alt="">
+            <h3>Harry Potter and the Chamber of Secrets </h3>
+            <div class="price">Rs.375</div>
+            <button onclick="addToCart('Harry Potter and the Chamber of Secrets', 375.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            
+        </div>
+        
+        <div class="box">
+            <img src="https://wordery.com/jackets/99f3a5e0/l/harry-potter-and-the-prisoner-of-azkaban-book-3-j-k-rowling-9780545582933.jpg" alt="">
+            <h3>Harry potter and the Prisoner of Azkaban</h3>
+            <div class="price">Rs.375</div>
+            <button onclick="addToCart('Harry potter and the Prisoner of Azkaban', 375.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://products-images.di-static.com/image/j-k-rowling-harry-potter-tome-4-harry-potter-and-the-goblet-of-fire/9781408855683-475x500-1.jpg" alt="">
+            <h3>Harry Potter and the Goblet of Fire</h3>
+            <div class="price">Rs.530</div>
+            <button onclick="addToCart('Harry Potter and the Goblet of Fire', 530.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.shopify.com/s/files/1/0552/2233/7720/products/9781408855713_1_ca615d73-6b2c-4c6c-9722-f6b5d21e8755_800x.jpg?v=1618538737" alt="">
+            <h3>Harry Potter and the Deathly Hallows</h3>
+            <div class="price">Rs.530</div>
+            <button onclick="addToCart('Harry Potter and the Deathly Hallows', 530.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_568,c_scale/jackets/9781408855652.jpg" alt="">
+            <h3>Harry Potter and the Philospher's Stone</h3>
+            <div class="price">Rs.375</div>
+            <button onclick="addToCart('Harry Potter and the Philospher Stone', 375.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        
+    </div> 
+    </div>       
+</section>
+<section class="product" id="fiction">
+    <h1 class="heading">Fiction</h1>
+    <div class="product-slider">
+    <div class="wrapper">
+        <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.BFphXSy0Q1hijrcFhAI28QHaLa?rs=1&pid=ImgDetMain" alt="">
+            <h3>Pride and Prejudice</h3>
+            <div class="price">Rs.200</div>
+            <button onclick="addToCart('Pride and Prejudice', 200.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        
+        <div class="box">
+            <img src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/8/25/1440502605800/d17df8ac-f06b-415b-8d51-79f6647ff413-bestSizeAvailable.jpeg?width=140&quality=45&auto=format&fit=max&dpr=2&s=9413191d330f88405121d7492d92cb7d" alt="">
+            <h3>Five point someone</h3>
+            <div class="price">Rs.200</div>
+            <button onclick="addToCart('Five Point Someone', 200.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.nNcBZdoVpqiGr2JeJGvLrQHaLQ?rs=1&pid=ImgDetMain" alt="">
+            <h3>God of small things</h3>
+            <div class="price">Rs.290</div>
+            <button onclick="addToCart('God of small things', 290.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.6acyCJhONbXcQWrqC6-IaAAAAA?w=460&h=659&rs=1&pid=ImgDetMain" alt="">
+            <h3>The forest of enchantments</h3>
+            <div class="price">Rs.500</div>
+            <button onclick="addToCart('The forest of enchantments', 500.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.absf6dBebpHbxyT6KlB1PwHaLU?rs=1&pid=ImgDetMain" alt="">
+            <h3>They both die at the end</h3>
+            <div class="price">Rs.900</div>
+            <button onclick="addToCart('They both die at the end', 900.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.z4vvko_70ikMJj73nRQy5gHaLH?rs=1&pid=ImgDetMain" alt="">
+            <h3>Better than the movies</h3>
+            <div class="price">Rs.900</div>
+            <button onclick="addToCart('Better than the movies', 900.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://products-images.di-static.com/image/j-k-rowling-harry-potter-tome-4-harry-potter-and-the-goblet-of-fire/9781408855683-475x500-1.jpg" alt="">
+            <h3>Harry Potter and the Goblet of Fire</h3>
+            <div class="price">Rs.530</div>
+            <button onclick="addToCart('Harry Potter and the Goblet of Fire', 530.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.shopify.com/s/files/1/0552/2233/7720/products/9781408855713_1_ca615d73-6b2c-4c6c-9722-f6b5d21e8755_800x.jpg?v=1618538737" alt="">
+            <h3>Harry Potter and the Deathly Hallows</h3>
+            <div class="price">Rs.530</div>
+            <button onclick="addToCart('Harry Potter and the Deathly Hallows', 530.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_568,c_scale/jackets/9781408855652.jpg" alt="">
+            <h3>Harry Potter and the Philospher's Stone</h3>
+            <div class="price">Rs.375</div>
+            <button onclick="addToCart('Harry Potter and the Philospher Stone', 375.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.ejkJyerXb4uYfB7jz3lIFQHaLO?rs=1&pid=ImgDetMain" alt="">
+            <h3>Harry Potter and the Chamber of Secrets </h3>
+            <div class="price">Rs.375</div>
+            <button onclick="addToCart('Harry Potter and the Chamber of Secrets', 375.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            
+        </div>
+        
+    </div> 
+    </div>       
+</section>
+<section class="product" id="adventure">
+    <h1 class="heading">Adventure</h1>
+    <div class="product-slider">
+    <div class="wrapper">
+        <div class="box">
+            <img src="https://i.pinimg.com/736x/d9/5e/b9/d95eb949882bad2e03e4c5d8d2f84daf.jpg" alt="">
+            <h3>The Cruel Prince</h3>
+            <div class="price">Rs.320</div>
+            <button onclick="addToCart('The Cruel Prince', 320.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            
+        </div>
+        
+        <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.vIqjX_cFZfZ0ojJCa1akwAHaLb?rs=1&pid=ImgDetMain" alt="">
+            <h3>The Wicked king</h3>
+            <div class="price">Rs.320</div>
+            <button onclick="addToCart('The Wicked King', 320.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.HpDQSfGDTsekT3eU7eTChwHaLZ?rs=1&pid=ImgDetMain" alt="">
+            <h3>The Queen of Nothing</h3>
+            <div class="price">Rs.320</div>
+            <button onclick="addToCart('The Queen of Nothing', 320.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.pOFNbvkDHramwftVvBm1gAHaLh?w=803&h=1250&rs=1&pid=ImgDetMain" alt="">
+            <br><h3>The Stolen Heir</h3>
+            <div class="price">Rs.900</div>
+            <button onclick="addToCart('The Stolen Heir', 900.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.1KLldtgcQda-h5oJscJ_jwHaLG?rs=1&pid=ImgDetMain" alt="">
+            <h3>Shadow and Bone</h3>
+            <div class="price">Rs.900</div>
+            <button onclick="addToCart('Shadow and Bone', 900.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.ejkJyerXb4uYfB7jz3lIFQHaLO?rs=1&pid=ImgDetMain" alt="">
+            <h3>Harry Potter and the Chamber of Secrets </h3>
+            <div class="price">Rs.375</div>
+            <button onclick="addToCart('Harry Potter and the Chamber of Secrets', 375.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            
+        </div>
+        
+        <div class="box">
+            <img src="https://wordery.com/jackets/99f3a5e0/l/harry-potter-and-the-prisoner-of-azkaban-book-3-j-k-rowling-9780545582933.jpg" alt="">
+            <h3>Harry potter and the Prisoner of Azkaban</h3>
+            <div class="price">Rs.375</div>
+            <button onclick="addToCart('Harry potter and the Prisoner of Azkaban', 375.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://products-images.di-static.com/image/j-k-rowling-harry-potter-tome-4-harry-potter-and-the-goblet-of-fire/9781408855683-475x500-1.jpg" alt="">
+            <h3>Harry Potter and the Goblet of Fire</h3>
+            <div class="price">Rs.530</div>
+            <button onclick="addToCart('Harry Potter and the Goblet of Fire', 530.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.shopify.com/s/files/1/0552/2233/7720/products/9781408855713_1_ca615d73-6b2c-4c6c-9722-f6b5d21e8755_800x.jpg?v=1618538737" alt="">
+            <h3>Harry Potter and the Deathly Hallows</h3>
+            <div class="price">Rs.530</div>
+            <button onclick="addToCart('Harry Potter and the Deathly Hallows', 530.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_568,c_scale/jackets/9781408855652.jpg" alt="">
+            <h3>Harry Potter and the Philospher's Stone</h3>
+            <div class="price">Rs.375</div>
+            <button onclick="addToCart('Harry Potter and the Philospher Stone', 375.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        
+        
+    </div> 
+    </div>       
+</section>
+<section class="product" id="mystery">
+    <h1 class="heading">Mystery</h1>
+    <div class="product-slider">
+    <div class="wrapper">
+        <div class="box">
+            <img src="https://i.pinimg.com/736x/d9/5e/b9/d95eb949882bad2e03e4c5d8d2f84daf.jpg" alt="">
+            <h3>The Cruel Prince</h3>
+            <div class="price">Rs.320</div>
+            <button onclick="addToCart('The Cruel Prince', 320.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            
+        </div>
+        
+        <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.vIqjX_cFZfZ0ojJCa1akwAHaLb?rs=1&pid=ImgDetMain" alt="">
+            <h3>The Wicked king</h3>
+            <div class="price">Rs.320</div>
+            <button onclick="addToCart('The Wicked King', 320.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.HpDQSfGDTsekT3eU7eTChwHaLZ?rs=1&pid=ImgDetMain" alt="">
+            <h3>The Queen of Nothing</h3>
+            <div class="price">Rs.320</div>
+            <button onclick="addToCart('The Queen of Nothing', 320.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.pOFNbvkDHramwftVvBm1gAHaLh?w=803&h=1250&rs=1&pid=ImgDetMain" alt="">
+            <br><h3>The Stolen Heir</h3>
+            <div class="price">Rs.900</div>
+            <button onclick="addToCart('The Stolen Heir', 900.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.1KLldtgcQda-h5oJscJ_jwHaLG?rs=1&pid=ImgDetMain" alt="">
+            <h3>Shadow and Bone</h3>
+            <div class="price">Rs.900</div>
+            <button onclick="addToCart('Shadow and Bone', 900.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.ejkJyerXb4uYfB7jz3lIFQHaLO?rs=1&pid=ImgDetMain" alt="">
+            <h3>Harry Potter and the Chamber of Secrets </h3>
+            <div class="price">Rs.375</div>
+            <button onclick="addToCart('Harry Potter and the Chamber of Secrets', 375.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            
+        </div>
+        
+        <div class="box">
+            <img src="https://wordery.com/jackets/99f3a5e0/l/harry-potter-and-the-prisoner-of-azkaban-book-3-j-k-rowling-9780545582933.jpg" alt="">
+            <h3>Harry potter and the Prisoner of Azkaban</h3>
+            <div class="price">Rs.375</div>
+            <button onclick="addToCart('Harry potter and the Prisoner of Azkaban', 375.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://products-images.di-static.com/image/j-k-rowling-harry-potter-tome-4-harry-potter-and-the-goblet-of-fire/9781408855683-475x500-1.jpg" alt="">
+            <h3>Harry Potter and the Goblet of Fire</h3>
+            <div class="price">Rs.530</div>
+            <button onclick="addToCart('Harry Potter and the Goblet of Fire', 530.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.shopify.com/s/files/1/0552/2233/7720/products/9781408855713_1_ca615d73-6b2c-4c6c-9722-f6b5d21e8755_800x.jpg?v=1618538737" alt="">
+            <h3>Harry Potter and the Deathly Hallows</h3>
+            <div class="price">Rs.530</div>
+            <button onclick="addToCart('Harry Potter and the Deathly Hallows', 530.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_568,c_scale/jackets/9781408855652.jpg" alt="">
+            <h3>Harry Potter and the Philospher's Stone</h3>
+            <div class="price">Rs.375</div>
+            <button onclick="addToCart('Harry Potter and the Philospher Stone', 375.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        
+        
+    </div> 
+    </div>       
+</section>
+<section class="product" id="horror">
+    <h1 class="heading">Horror</h1>
+    <div class="product-slider">
+    <div class="wrapper">
+        <div class="box">
+            <img src="https://i.pinimg.com/736x/d9/5e/b9/d95eb949882bad2e03e4c5d8d2f84daf.jpg" alt="">
+            <h3>The Cruel Prince</h3>
+            <div class="price">Rs.320</div>
+            <button onclick="addToCart('The Cruel Prince', 320.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            
+        </div>
+        
+        <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.vIqjX_cFZfZ0ojJCa1akwAHaLb?rs=1&pid=ImgDetMain" alt="">
+            <h3>The Wicked king</h3>
+            <div class="price">Rs.320</div>
+            <button onclick="addToCart('The Wicked King', 320.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.HpDQSfGDTsekT3eU7eTChwHaLZ?rs=1&pid=ImgDetMain" alt="">
+            <h3>The Queen of Nothing</h3>
+            <div class="price">Rs.320</div>
+            <button onclick="addToCart('The Queen of Nothing', 320.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.pOFNbvkDHramwftVvBm1gAHaLh?w=803&h=1250&rs=1&pid=ImgDetMain" alt="">
+            <br><h3>The Stolen Heir</h3>
+            <div class="price">Rs.900</div>
+            <button onclick="addToCart('The Stolen Heir', 900.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.1KLldtgcQda-h5oJscJ_jwHaLG?rs=1&pid=ImgDetMain" alt="">
+            <h3>Shadow and Bone</h3>
+            <div class="price">Rs.900</div>
+            <button onclick="addToCart('Shadow and Bone', 900.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.ejkJyerXb4uYfB7jz3lIFQHaLO?rs=1&pid=ImgDetMain" alt="">
+            <h3>Harry Potter and the Chamber of Secrets </h3>
+            <div class="price">Rs.375</div>
+            <button onclick="addToCart('Harry Potter and the Chamber of Secrets', 375.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+            
+        </div>
+        
+        <div class="box">
+            <img src="https://wordery.com/jackets/99f3a5e0/l/harry-potter-and-the-prisoner-of-azkaban-book-3-j-k-rowling-9780545582933.jpg" alt="">
+            <h3>Harry potter and the Prisoner of Azkaban</h3>
+            <div class="price">Rs.375</div>
+            <button onclick="addToCart('Harry potter and the Prisoner of Azkaban', 375.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://products-images.di-static.com/image/j-k-rowling-harry-potter-tome-4-harry-potter-and-the-goblet-of-fire/9781408855683-475x500-1.jpg" alt="">
+            <h3>Harry Potter and the Goblet of Fire</h3>
+            <div class="price">Rs.530</div>
+            <button onclick="addToCart('Harry Potter and the Goblet of Fire', 530.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.shopify.com/s/files/1/0552/2233/7720/products/9781408855713_1_ca615d73-6b2c-4c6c-9722-f6b5d21e8755_800x.jpg?v=1618538737" alt="">
+            <h3>Harry Potter and the Deathly Hallows</h3>
+            <div class="price">Rs.530</div>
+            <button onclick="addToCart('Harry Potter and the Deathly Hallows', 530.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_568,c_scale/jackets/9781408855652.jpg" alt="">
+            <h3>Harry Potter and the Philospher's Stone</h3>
+            <div class="price">Rs.375</div>
+            <button onclick="addToCart('Harry Potter and the Philospher Stone', 375.00)">Add to Cart</button>
+            <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+        
+    </div> 
+    </div>       
+</section>
+<div id="cart" class="cart-overlay">
+    <div class="cart-content">
+        <h2>Shopping Cart</h2>
+        <br>
+        <ul id="cart-items"></ul>
+        <p>Total: Rs<span id="cart-total">0.00</span></p>
+        <br>
+        <button onclick="checkout()">Checkout</button>
+        <button onclick="toggleCart()">Close</button>
+    </div>
+</div>
+<form id="applicationForm" onsubmit="return validateForm()">
+<div id="checkout-form" class="checkout-overlay">
+    <div class="checkout-content">
+        <h2>Checkout</h2>
+        <br>
+        <form>
+            <div class="form-container">
+                <div class="form-section">
+                    <h3>Billing Address</h3>
+                    <div class="form-grid">
+                        <label for="billing-name">Full Name</label>
+                        <input type="text" id="billing-name" name="billing-name" placeholder="Name" required>
+                        <span id="NameError" class="error-message"></span>
+                        <label for="billing-contact">Contact Number</label>
+                        <input type="tel" id="billing-contact" name="billing-contact" placeholder="Phone No." required>
+                        <span id="ContactError" class="error-message"></span>
+                        <label for="billing-address">Address</label>
+                        <textarea id="billing-address" name="billing-address" rows="3" placeholder="Address" required></textarea>
+                        <span id="AddressError" class="error-message"></span>
+                        <label for="billing-city">City</label>
+                        <input type="text" id="billing-city" name="billing-city" placeholder="City" required>
+                        <span id="CityError" class="error-message"></span>
+                        <label for="billing-country">Country</label>
+                        <input type="text" id="billing-country" name="billing-country" placeholder="Country" required>
+                        <span id="CountryError" class="error-message"></span>
+                        <label for="billing-state">State</label>
+                        <input type="text" id="billing-state" name="billing-state" placeholder="State" required>
+                        <span id="StateError" class="error-message"></span>
+                        <label for="billing-pin">Pincode</label>
+                        <input type="text" id="billing-pin" name="billing-pin" placeholder="ZIP Code" required>
+                        <span id="PinError" class="error-message"></span>
+                    </div>
+                </div>
+                
+                <div class="form-section">
+                    <h3>Shipping Address</h3>
+                    <label class="checkbox-container">
+                        <input type="checkbox" id="same-address" name="same-address"> 
+                        <span class="checkmark"></span> Shipping Address same as Billing Address
+                        <span id="shipping-message" class="info-message" style="color: red; font-size: 0.9rem;"></span>
+                    </label>
+                    <div id="shipping-fields" class="form-grid">
+                        <label for="shipping-address">Address</label>
+                        <textarea id="shipping-address" name="shipping-address" rows="3" placeholder="Address"></textarea>
+
+                        <label for="shipping-city">City</label>
+                        <input type="text" id="shipping-city" name="shipping-city" placeholder="City">
+
+                        <label for="shipping-country">Country</label>
+                        <input type="text" id="shipping-country" name="shipping-country" placeholder="Country">
+
+                        <label for="shipping-state">State</label>
+                        <input type="text" id="shipping-state" name="shipping-state" placeholder="State">
+
+                        <label for="shipping-pin">Pincode</label>
+                        <input type="text" id="shipping-pin" name="shipping-pin" placeholder="ZIP Code">
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+            
+            <h3>Payment Method</h3>
+            <div class="payment-options">
+                <label class="radio-container"><input type="radio" name="payment-method" value="upi" required> Wallet/UPI<span class="radiomark"></span></label>
+                <label class="radio-container"><input type="radio" name="payment-method" value="netbanking"> Net Banking<span class="radiomark"></span></label>
+                <label class="radio-container"><input type="radio" name="payment-method" value="card"> Credit/Debit Card<span class="radiomark"></span></label>
+                <label class="radio-container"><input type="radio" name="payment-method" value="cod"> Cash on Delivery<span class="radiomark"></span></label>
+            </div>
+            
+            <button type="submit" class="btn-primary">Place Order</button>
+            <button type="button" class="btn-secondary" onclick="closeCheckout()">Cancel</button>
+        
+    </div>
+</div>
+</form>
+
+<script> 
+let cart = [];
+
+function addToCart(name, price, image) {
+    let item = cart.find(i => i.name === name);
+    if (item) {
+        item.quantity++;
+    } else {
+        cart.push({ name, price, image, quantity: 1 });
+    }
+    updateCart();
+}
+
+function removeFromCart(name, qty = 1) {
+    let item = cart.find(i => i.name === name);
+    if (item) {
+        item.quantity -= qty;
+        if (item.quantity < 1) {
+            cart = cart.filter(i => i.name !== name); // Remove item only when quantity is zero
+        }
+    }
+    updateCart();
+}
+
+function updateCart() {
+    let cartList = document.getElementById('cart-items');
+    let total = 0;
+    cartList.innerHTML = '';
+
+    cart.forEach(item => {
+        let li = document.createElement('li');
+        li.innerHTML = `
+            <div style="display: flex; align-items: center; gap: 10px;">
+                <img src="${item.image}">
+                <span>${item.name} x ${item.quantity} - Rs.${(item.price * item.quantity).toFixed(2)}</span>
+                <button onclick="removeFromCart('${item.name}')">Remove</button>
+            </div>
+        `;
+        cartList.appendChild(li);
+        total += item.price * item.quantity;
+    });
+    document.getElementById('cart-total').textContent = total.toFixed(2);
+    document.querySelector('.totalQuantity').textContent = cart.length;
+}
+    
+
+function toggleCart() {
+    document.getElementById('cart').classList.toggle('active');
+}
+
+function checkout() {
+    document.getElementById('checkout-form').classList.add('active');
+}
+
+function closeCheckout() {
+    document.getElementById('checkout-form').classList.remove('active');
+}
+
+    
+    function toggleMenu() {
+                        document.querySelector(".menu").classList.toggle("active");
+                    }
+                    document.getElementById("same-address").addEventListener("change", function () {
+    const shippingMessage = document.getElementById("shipping-message");
+    if (this.checked) {
+        document.getElementById("shipping-address").value = document.getElementById("billing-address").value;
+        document.getElementById("shipping-city").value = document.getElementById("billing-city").value;
+        document.getElementById("shipping-country").value = document.getElementById("billing-country").value;
+        document.getElementById("shipping-state").value = document.getElementById("billing-state").value;
+        document.getElementById("shipping-pin").value = document.getElementById("billing-pin").value;
+        shippingMessage.innerText = "";
+    } else {
+        shippingMessage.innerText = "Please enter shipping details.";
+    }
+});
+
+document.getElementById("orderForm").addEventListener("submit", function (event) {
+    event.preventDefault(); // Prevent default form submission
+
+    if (!validateForm()) return; // Stop if validation fails
+
+    
+    document.querySelector(".form-container").style.display = "none";
+    document.getElementById("successMessage").style.display = "block";
+});
+
+function validateForm() {
+    let isValid = true;
+
+    const Name = document.getElementById("billing-name").value.trim();
+    const Country = document.getElementById("billing-country").value.trim();
+    const City = document.getElementById("billing-city").value.trim();
+    const state = document.getElementById("billing-state").value.trim();
+    const contact = document.getElementById("billing-contact").value.trim();
+    const address = document.getElementById("billing-address").value.trim();
+    const pin = document.getElementById("billing-pin").value.trim();
+
+    const namePattern = /^[A-Za-z\s]+$/;
+    const phonePattern = /^\+?(\d{1,3})?[-.\s]?(\(?\d{3}\)?)[-.\s]?(\d{3})[-.\s]?(\d{4})$/;
+    const addressPattern = /^[a-zA-Z0-9\s,'\-./#()]{5,100}$/;
+    const pincodePattern = /^\d{6}$/;
+
+    if (!namePattern.test(Name)) {
+        document.getElementById("NameError").innerText = "Enter a valid First Name (Only letters and spaces)";
+        isValid = false;
+    } else {
+        document.getElementById("NameError").innerText = "";
+    }
+
+    if (!namePattern.test(Country)) {
+        document.getElementById("CountryError").innerText = "Enter a valid Country Name";
+        isValid = false;
+    } else {
+        document.getElementById("CountryError").innerText = "";
+    }
+
+    if (!namePattern.test(City)) {
+        document.getElementById("CityError").innerText = "Enter a valid City Name";
+        isValid = false;
+    } else {
+        document.getElementById("CityError").innerText = "";
+    }
+
+    if (!namePattern.test(state)) {
+        document.getElementById("StateError").innerText = "Enter a valid State Name";
+        isValid = false;
+    } else {
+        document.getElementById("StateError").innerText = "";
+    }
+
+    if (!phonePattern.test(contact)) {
+        document.getElementById("ContactError").innerText = "Enter a valid phone number";
+        isValid = false;
+    } else {
+        document.getElementById("ContactError").innerText = "";
+    }
+
+    if (!addressPattern.test(address)) {
+        document.getElementById("AddressError").innerText = "Enter a valid Address";
+        isValid = false;
+    } else {
+        document.getElementById("AddressError").innerText = "";
+    }
+
+    if (!pincodePattern.test(pin)) {
+        document.getElementById("PinError").innerText = "Enter a valid Pin Code";
+        isValid = false;
+    } else {
+        document.getElementById("PinError").innerText = "";
+    }
+
+    return isValid;
+}
+</script>
+
+
+
+<footer>
+    <div class="footer_main" id="Contact">
+        <div class="tag" id="Contact">
+            <h1>Quick link</h1>
+            <a href="c:\Users\LOMADA SAHITHI\OneDrive\Desktop\UID\bookstore.html">Home</a>
+            <a href="C:\Users\LOMADA SAHITHI\OneDrive\Desktop\UID\about.html">About</a>
+            <a href="c:\Users\LOMADA SAHITHI\OneDrive\Desktop\UID\bookstore.html">Shop</a>
+            
+
+        </div>
+        <div class="tag">
+            <h1>Contact Info</h1>
+            <a href="#"><i class="fa fa-phone"></i>+91 90346347824</a>
+            <a href="#"><i class="fa fa-phone"></i>+91 90346347824</a>
+            <a href="#"><i class="fa fa-envelope"></i>lomadasahithi@gmail.com</a>
+                               
+        </div>
+        <div class="tag">
+            <h1>Follow Us</h1>
+            <div class="social_link"></div>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+           
+                               
+        </div>
+   </div>
+ </footer>
+ <script>
+    
+
+ </script> 
+ 
+   
+
+</body>
+</html>

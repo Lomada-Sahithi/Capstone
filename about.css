@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+ul{
+  list-style:none;
+}
+
+a{
+  text-decoration:none;
+}
+.main{
+    width:100%;
+    height:800px;
+    background-image:url("C:/Users/LOMADA SAHITHI/OneDrive/Desktop/UID/book7.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size:cover;
+    background-position: center;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform:uppercase;
+    font-weight: 600;
+    letter-spacing:1px;
+    position:static;
+    top:0;
+    left:0;
+    width:100%;
+    box-sizing: border-box;
+    padding:10px 50px;
+    box-shadow:2px 2px 12px rgba(0, 0, 0, .05);
+    z-index:1000;
+  }
+  .menu{
+    display:flex;
+  }
+  
+  .menu li a{
+    display:inline;
+    padding:10px 25px;
+    color:#fff;
+    font-size:20px;
+  }
+  .sitename{
+    font-size:25px;
+    font-weight:bold;
+    color:#fff;
+  
+  }
+  .logo img{
+    width:60px;
+  }
+  .menu li a:hover, .active{
+    background-color:#94c8b3;
+    font-weight:700;
+    transition: all ease 0.4s;
+  
+  }
+  .menu-toggle {
+    display: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+  .about{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    transition:translate(-10%, -35%);
+    margin-right: 100px;
+    padding: 50px 10%;
+    
+  }
+  
+ 
+  
+  .about .about_tag h1{
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 20px;
+
+  }
+  
+  .about .about_tag p{
+    color: #eee;
+    font-size: 25px;
+    max-width: 700px;
+    
+  }
+  footer{
+    width:100%;
+    background:white;
+  
+  }
+  footer .footer_main{
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    
+  }
+  
+  footer .footer_main .tag{
+    margin:10px 0;
+  }
+  
+  footer .footer_main .tag h1{
+    font-size:25px;
+    margin:25px 0;
+    color:black;
+  
+  }
+  
+  footer .footer_main .tag a{
+    display:block;
+    color:black;
+    font-size:19px;
+    text-decoration:none;
+    margin:10px 0;
+  
+  }
+  
+  footer .footer_main .tag i{
+    margin-right:10px;
+  }
+  
+  footer .footer_main .tag .social_link i{
+    margin:0 5px;
+  }
+
+  @media (max-width: 1024px) {
+    .about {
+        padding: 40px 5%;
+    }
+
+    .about .about_tag h1 {
+        font-size: 35px;
+    }
+
+    .about .about_tag p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        padding: 10px 0;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .footer_main {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about .about_tag h1 {
+        font-size: 30px;
+    }
+
+    .about .about_tag p {
+        font-size: 16px;
+    }
+}
